@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_MODULES_BREAKING_CHANGE",
+    "modulesPath": "/home/gaurav/Documents/Practice/node_modules",
+    "err": {
+      "name": "Error",
+      "message": "The node_modules structure at \"/home/gaurav/Documents/Practice/node_modules\" is not compatible with the current pnpm version. Run \"pnpm install --force\" to recreate node_modules.",
+      "code": "ERR_PNPM_MODULES_BREAKING_CHANGE",
+      "stack": "Error: The node_modules structure at \"/home/gaurav/Documents/Practice/node_modules\" is not compatible with the current pnpm version. Run \"pnpm install --force\" to recreate node_modules.\n    at Object.checkCompatibility [as default] (/opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:90404:15)\n    at /opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:90926:39\n    at Array.map (<anonymous>)\n    at validateModules (/opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:90924:34)\n    at Object.getContext [as default] (/opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:90822:34)\n    at async Object.mutateModules (/opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:113313:19)\n    at async Object.handler [as default] (/opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:116185:35)\n    at async Timeout._onTimeout (/opt/node-v14.15.4-linux-x64/pnpm-global/5/node_modules/.pnpm/pnpm@6.6.2/node_modules/pnpm/dist/pnpm.cjs:125314:24)"
+    }
+  }
+}

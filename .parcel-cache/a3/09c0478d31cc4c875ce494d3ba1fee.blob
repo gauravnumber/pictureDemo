@@ -1,0 +1,2 @@
+var _indexJs = require('./index.js');
+_indexJs.picture();
